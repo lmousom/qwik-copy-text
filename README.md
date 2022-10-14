@@ -1,8 +1,8 @@
-# ⌗ qwik-text-copy
+# ⌗ qwik-copy-text
 
 A react text copy component to easily copy html as rich text format in clipboard. ✨
 
-[![npm version](https://badge.fury.io/js/qwik-text-copy.svg)](https://badge.fury.io/js/qwik-text-copy)
+[![npm version](https://badge.fury.io/js/qwik-copy-text.svg)](https://badge.fury.io/js/qwik-copy-text)
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
@@ -18,13 +18,13 @@ A react text copy component to easily copy html as rich text format in clipboard
 Via package managers:
 
 ```bash
-npm i qwik-text-copy
+npm i qwik-copy-text
 ```
 
 ## Example Usage
 
 ```bash
-import QwikCopy from 'qwik-text-copy'
+import QwikCopy from 'qwik-copy-text'
 
 // custom style
 const styles = {
