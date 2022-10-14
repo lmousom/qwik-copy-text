@@ -26,12 +26,16 @@ npm i qwik-text-copy
 ```bash
 import QwikCopy from 'qwik-text-copy'
 
+// custom style
 const styles = {
     backgroundColor: '#ffebb3'
 }
 
 
- <QwikCopy isDisabled={false} htmlContent={`<h1> Hello from qwikcopy! </h1>`} />
+ <QwikCopy 
+ isDisabled={false} 
+ htmlContent={`<h1> Hello from qwikcopy! </h1>`} 
+ />
 ```
 
 ## Props
