@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "keywords": [
     "react copy text",
@@ -74,6 +74,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
+    "framer-motion": "^7.5.3",
     "react-icons": "^4.6.0"
   }
 }

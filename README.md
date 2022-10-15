@@ -18,22 +18,37 @@ A react text copy component to easily copy html as rich text format in clipboard
 Via package managers:
 
 ```bash
-npm i qwik-copy-text
+$ npm i qwik-copy-text
 ```
 
 ## Example Usage
 
-```bash
+```js
 import QwikCopy from 'qwik-copy-text'
+```
 
-// custom style
-const styles = {
-    backgroundColor: '#ffebb3'
-}
+```js
+// custom style !optional
+ const style = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '20px',
+    height: '20px',
+    padding: '10px',
+    background: '#5784f5',
+    color: '#fff',
+    fontSize: '20px',
+    border: 'none',
+    outline: 'none',
+    borderRadius: '10px',
+    cursor: 'pointer',
+  }
 
 
  <QwikCopy 
- isDisabled={false} 
+ isDisabled={false}
+ styles={style} 
  htmlContent={`<h1> Hello from qwikcopy! </h1>`} 
  />
 ```
