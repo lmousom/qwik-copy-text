@@ -4,7 +4,7 @@ import { MdContentCopy } from 'react-icons/md';
 import { QwikCopyProps } from './lib/typeDefinition';
 import { htmlToRichText } from './lib/utils/htmlToText';
 
-export const QwikCopy = (params: QwikCopyProps) => {
+const QwikCopy = (params: QwikCopyProps) => {
   return (
     <>
       {params.isDisabled ? (
@@ -23,3 +23,5 @@ export const QwikCopy = (params: QwikCopyProps) => {
     </>
   );
 };
+
+export default QwikCopy;

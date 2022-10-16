@@ -21,6 +21,10 @@ Via package managers:
 $ npm i qwik-copy-text
 ```
 
+```bash
+$ yarn add qwik-copy-text
+```
+
 ## Example Usage
 
 ```js
