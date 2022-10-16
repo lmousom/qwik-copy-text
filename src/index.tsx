@@ -14,7 +14,7 @@ const QwikCopy = (params: QwikCopyProps) => {
           style={params?.styles}
           onClick={() => htmlToRichText(params.htmlContent)}
           whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9, backgroundColor: 'hsl(147, 50, 47)' }}
+          whileTap={{ scale: 0.9, backgroundColor: '#3cb472' }}
           transition={{ type: 'spring', stiffness: 400, damping: 16 }}
         >
           <MdContentCopy />

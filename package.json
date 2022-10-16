@@ -1,5 +1,5 @@
 {
-  "version": "0.1.8",
+  "version": "0.2.0",
   "license": "MIT",
   "keywords": [
     "react copy text",
@@ -69,12 +69,12 @@
     "react-dom": "^18.2.0",
     "rollup-plugin-postcss": "^4.0.2",
     "size-limit": "^8.1.0",
-    "tsdx": "^0.14.1",
+    "tsdx": "^0.13.3",
     "tslib": "^2.4.0",
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "framer-motion": "^7.5.3",
+    "framer-motion": "^4.1.17",
     "react-icons": "^4.6.0"
   }
 }
